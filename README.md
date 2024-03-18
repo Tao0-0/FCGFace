@@ -31,17 +31,19 @@ We use MTCNN to align images in training sets before training.
 ## Train
 
 Modify the 'config.py' file and then run the code for training:
+```
 python3 train.py
+```
 
 ## Test
 
 Modify the 'config.py' file to add the ckpt path as "BACKBONE_RESUME_ROOT" before evaluation:
 
-1. Perform Evaluation on LFW, CFP_FF, CFP_FP, AgeDB, CALFW, CPLFW and VGG2_FP
-
+* Perform Evaluation on LFW, CFP_FF, CFP_FP, AgeDB, CALFW, CPLFW and VGG2_FP
+```
 python3 test.py
-
-2. Perform Evaluation on IJB benchmark
+```
+* Perform Evaluation on IJB benchmark
 
 Please refer to [[InsightFace](https://github.com/deepinsight/insightface)](https://github.com/deepinsight/insightface)
 
