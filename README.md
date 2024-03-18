@@ -1,6 +1,13 @@
 # FCGFace
 This project is the official `PyTorch` implementation of "[Frontal-Centers Guided Face: Boosting Face Recognition by Learning Pose-Invariant Features](https://ieeexplore.ieee.org/abstract/document/9796565)", T-IFS 2022
 
+
+> **Abstract:** In recent years, face recognition has made a remarkable breakthrough due to the emergence of deep learning. However, compared with frontal face recognition, plenty of deep face recognition models still suffer serious performance degradation when handling profile faces. To address this issue, we propose a novel Frontal-Centers Guided Loss (FCGFace) to obtain highly discriminative features for face recognition. Most existing discriminative feature learning approaches project features from the same class into a separated latent subspace. These methods only model the distribution at the identity-level but ignore the latent relationship between frontal and profile viewpoints. Different from these methods, FCGFace takes viewpoints into consideration by modeling the distribution at both the identity-level and the viewpoint-level. At the identity-level, a softmax-based loss is employed for a relatively rough classification. At the viewpoint-level, centers of frontal face features are defined to guide the optimization conducted in a more refined way. Specifically, our FCGFace is capable of adaptively adjusting the distribution of profile face features and narrowing the gap between them and frontal face features during different training stages to form compact identity clusters. Extensive experimental results on popular benchmarks, including cross-pose datasets (CFP-FP, CPLFW, VGGFace2-FP, and Multi-PIE) and non-cross-pose datasets (YTF, LFW, AgeDB-30, CALFW, IJB-B, IJB-C, and RFW), have demonstrated the superiority of our FCGFace over the SOTA competitors.
+
+<p align="center">
+<img src="overview.png" weight=800>
+</p>
+
 ## Usage Instructions
 
 The code is adopted from InsightFace, face.evoLVe and SFace. We sincerely appreciate for their contributions.
