@@ -8,11 +8,7 @@ This project is the official `PyTorch` implementation of "[Frontal-Centers Guide
 <img src="overview.png" weight=800>
 </p>
 
-## Usage Instructions
-
-The code is adopted from InsightFace, face.evoLVe and SFace. We sincerely appreciate for their contributions.
-
-### requirements
+## requirements
 
 torch
 numpy
@@ -22,12 +18,12 @@ tqdm
 scipy
 scikit-learn
 
-### Data Preparing
+## Data Preparing
 
 1. The training datasets, CASIA-WebFace and MS1M-IBUG are downloaded from Data Zoo of InsightFace.
 2. The test datasets, including LFW, CFP, AgeDB, CALFW, CPLFW and VGG-FP are downloaded from face.evoLVe.
 
-### Face Alignment
+## Face Alignment
 
 We use MTCNN to align images in training sets before training.
 
@@ -63,3 +59,6 @@ If you find this repo useful for your research, please consider citing the paper
   keywords={Face recognition;Measurement;Representation learning;Feature extraction;Training;Optimization;Generative adversarial networks;Face recognition;metric learning;pose-invariant features learning},
   doi={10.1109/TIFS.2022.3183410}}
 ``` 
+
+## Acknowledgement
+The code is adopted from InsightFace, face.evoLVe and SFace. We sincerely appreciate for their contributions.
