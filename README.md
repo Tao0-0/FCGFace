@@ -9,7 +9,7 @@ This project is the official `PyTorch` implementation of "[Frontal-Centers Guide
 </p>
 
 ## requirements
-
+```
 torch
 numpy
 opencv-python
@@ -17,11 +17,12 @@ bcolz
 tqdm
 scipy
 scikit-learn
+```
 
 ## Data Preparing
 
-1. The training datasets, CASIA-WebFace and MS1M-IBUG are downloaded from Data Zoo of InsightFace.
-2. The test datasets, including LFW, CFP, AgeDB, CALFW, CPLFW and VGG-FP are downloaded from face.evoLVe.
+1. The training datasets, CASIA-WebFace and MS1M-IBUG are downloaded from Data Zoo of [InsightFace](https://github.com/deepinsight/insightface).
+2. The test datasets, including LFW, CFP, AgeDB, CALFW, CPLFW and VGG-FP are downloaded from [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe).
 
 ## Face Alignment
 
@@ -42,7 +43,7 @@ python3 test.py
 
 2. Perform Evaluation on IJB benchmark
 
-Please refer to InsightFace
+Please refer to [[InsightFace](https://github.com/deepinsight/insightface)](https://github.com/deepinsight/insightface)
 
 
 ## Citation
@@ -61,4 +62,4 @@ If you find this repo useful for your research, please consider citing the paper
 ``` 
 
 ## Acknowledgement
-The code is adopted from InsightFace, face.evoLVe and SFace. We sincerely appreciate for their contributions.
+The code is adopted from [InsightFace](https://github.com/deepinsight/insightface), [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe) and [SFace](https://github.com/deepinsight/insightface). We sincerely appreciate for their contributions.
