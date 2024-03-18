@@ -45,7 +45,7 @@ python3 test.py
 ```
 * Perform Evaluation on IJB benchmark
 
-Please refer to [[InsightFace](https://github.com/deepinsight/insightface)](https://github.com/deepinsight/insightface)
+Please refer to [InsightFace](https://github.com/deepinsight/insightface)
 
 
 ## Citation
