@@ -8,7 +8,7 @@ This project is the official `PyTorch` implementation of "[Frontal-Centers Guide
 <img src="overview.png" weight=800>
 </p>
 
-## requirements
+## Requirements
 ```
 torch
 numpy
